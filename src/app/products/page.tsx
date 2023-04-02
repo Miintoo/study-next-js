@@ -5,7 +5,7 @@ import MeowArticle from '@/components/MeowArticle';
 import Image from 'next/image';
 import clothesImage from '../../../public/images/clothes.jpg';
 
-// export const revalidate = 3;
+export const revalidate = 3;
 
 export default async function ProductsPage() {
   const products = await getProducts();
